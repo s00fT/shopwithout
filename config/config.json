@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "freedb_notorious",
+    "password": "6qYTaP28RKtcn8%",
+    "database": "freedb_shop_diploma",
+    "host": "sql.freedb.tech",
+    "dialect": "mysql",
+    "port": 3306
+  },
+  "test": {
+    "username": "freedb_notorious",
+    "password": "6qYTaP28RKtcn8%",
+    "database": "freedb_shop_diploma",
+    "host": "sql.freedb.tech",
+    "dialect": "mysql",
+    "port": 3306
+  },
+  "production": {
+    "username": "freedb_notorious",
+    "password": "6qYTaP28RKtcn8%",
+    "database": "freedb_shop_diploma",
+    "host": "sql.freedb.tech",
+    "dialect": "mysql",
+    "port": 3306
+  }
+}
