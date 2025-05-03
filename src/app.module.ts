@@ -1,13 +1,13 @@
-import { Module } from '@nestjs/common';
-import { UsersModule } from './users/users.module';
-import { SequelizeModule } from '@nestjs/sequelize';
-import { ConfigModule } from '@nestjs/config';
-import { SequelizeConfigService } from './config/sequelizeConfig.service';
-import { databaseConfig } from './config/configuration';
-import { AuthModule } from './auth/auth.module';
-import { BoilerPartsModule } from './boiler-parts/boiler-parts.module';
-import { ShoppingCartModule } from './shopping-cart/shopping-cart.module';
-import { PaymentModule } from './payment/payment.module';
+import { Module } from '@nestjs/common'
+import { ConfigModule } from '@nestjs/config'
+import { SequelizeModule } from '@nestjs/sequelize'
+import { AuthModule } from './auth/auth.module'
+import { BoilerPartsModule } from './boiler-parts/boiler-parts.module'
+import { SequelizeConfigService } from './config/sequelizeConfig.service'
+import { sqlConfig } from './config/sql.config'
+import { PaymentModule } from './payment/payment.module'
+import { ShoppingCartModule } from './shopping-cart/shopping-cart.module'
+import { UsersModule } from './users/users.module'
 
 @Module({
   imports: [
@@ -16,7 +16,8 @@ import { PaymentModule } from './payment/payment.module';
       useClass: SequelizeConfigService,
     }),
     ConfigModule.forRoot({
-      load: [databaseConfig],
+      isGlobal: true,
+      load: [sqlConfig],
     }),
     UsersModule,
     AuthModule,
