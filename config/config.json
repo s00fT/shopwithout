@@ -1,26 +1,26 @@
 {
   "development": {
-    "username": "freedb_notorious",
-    "password": "6qYTaP28RKtcn8%",
-    "database": "freedb_shop_diploma",
-    "host": "sql.freedb.tech",
+    "username": "root",
+    "password": "wgqorhbcJSzuxTSzvThGZMVagmikJWDL",
+    "database": "railway",
+    "host": "metro.proxy.rlwy.net",
     "dialect": "mysql",
-    "port": 3306
+    "port": 15281
   },
   "test": {
-    "username": "freedb_notorious",
-    "password": "6qYTaP28RKtcn8%",
-    "database": "freedb_shop_diploma",
-    "host": "sql.freedb.tech",
+    "username": "root",
+    "password": "wgqorhbcJSzuxTSzvThGZMVagmikJWDL",
+    "database": "railway",
+    "host": "metro.proxy.rlwy.net",
     "dialect": "mysql",
-    "port": 3306
+    "port": 15281
   },
   "production": {
-    "username": "freedb_notorious",
-    "password": "6qYTaP28RKtcn8%",
-    "database": "freedb_shop_diploma",
-    "host": "sql.freedb.tech",
+    "username": "root",
+    "password": "wgqorhbcJSzuxTSzvThGZMVagmikJWDL",
+    "database": "railway",
+    "host": "metro.proxy.rlwy.net",
     "dialect": "mysql",
-    "port": 3306
+    "port": 15281
   }
 }
